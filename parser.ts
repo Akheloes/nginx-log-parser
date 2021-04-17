@@ -2,7 +2,7 @@ import * as fs from 'fs';
 import { promisify } from 'util';
 import { separatingSpaces, Log } from './i-log';
 import { from, Observable } from 'rxjs';
-import { switchMap, catchError, map, tap } from 'rxjs/operators';
+import { switchMap, catchError } from 'rxjs/operators';
 
 /**
  * Parsing nginx logs (access.log);
