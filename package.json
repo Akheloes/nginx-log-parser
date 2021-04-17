@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "scripts": {
+    "test": "npx tsc --project tsconfig.json && node ./lib/perf_test.js"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.37",
+    "rxjs": "^6.6.7"
+  }
+}
